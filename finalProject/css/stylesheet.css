@@ -1,0 +1,91 @@
+
+body{
+	overflow-x: hidden;
+}
+
+h1,p{
+	color:#000;
+}
+ h4{
+	color:#fff;
+}
+.card h4{
+	color:#000;
+}
+	.nav-link{
+		font-size:14px;
+		text-transform:uppercase;
+		padding-left:1em !important;
+		padding-right:1em !important;
+	}
+
+	.nav-item.active{
+		border-left:#444 3px solid;
+	}
+
+	.carousel-item{
+		height:450px;
+	}
+
+
+	.carousel-image-1{
+		background-image:url('../images/img-1.jpg');
+		background-size: cover;
+	}
+
+	
+	.carousel-image-2{
+		background: url('../images/img-2.jpg');
+		background-size:cover;
+	}
+
+	
+	.carousel-image-3{
+		background: url('../images/img-3.jpg');
+		background-size:cover;
+	}
+	#home-heading{
+		position:relative;
+		min-height:200px;
+		background: url('../images/new1.jpeg');
+		
+		background-attachment: fixed;
+		 background-repeat: no-repeat; 
+
+	}
+	.dark-overlay{
+		position: absolute;
+		background-color:rgba(0,0,0,0.7) ;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+		margin-left: 0px;
+	}
+	 #page-header{
+		height:200px;
+		background: url('../images/image-1.jpeg');
+    	background-position: 0px -812px;
+		background-attachment:fixed;
+		color:#fff;
+		border-bottom:1px #eee solid;
+		padding-top:50px;
+		background-repeat: no-repeat;
+	 }
+	 
+		 img{
+			     width: 385px;
+    margin-top: -18px;
+    
+		 }
+ #main-footer{
+ background-color: black;
+    color: #fff;
+    width: 100%;
+ }
+#icon-boxes{
+	color:#fff;
+}
+
+
+	 

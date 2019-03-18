@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Add Employee</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body style="background-color:#F5F3F4">
+<div class="container">
+  <div class="row">
+  <div class="col-md-8">
+<h3>HRMS MANAGEMENT SYSTEM</h3>
+</div>
+
+<div class="col-md-2">
+<input type="text" placeholder="Search by Employee Id" name="search"></div>
+	<div class="col-md-1">
+	<label>Admin</label>
+	<img src="admin.png" height="20%" width="20%"></img>
+	</div>
+	<div class="col-md-1">
+	<a href="#" style="color:#20B2AA"><u>Logout</u></a>
+	</div>
+	</div>
+	</div>
+	</div>
+<hr>
+
+
+<div class="container" >
+ <div class="row">
+   <h3 style="color:#20B2AA">Add Employee Information</h3>
+  </div>
+
+<hr>	
+<div class="row">
+  
+  <div class="col-md-4">
+    <div class="form-group">
+         <label for="eid">Employee Id:</label>
+         <input type="text" class="form-control" id="eid">
+     </div>
+	 
+	 <div class="form-group">
+         <label for="fname">First Name:</label>
+         <input type="text" class="form-control" id="fname">
+     </div>
+	 
+	 <div class="form-group">
+      <label for="gender">Gender:</label>
+      <select class="form-control" id="gender">
+        <option></option>
+		<option>Male</option>
+        <option>Female</option>
+      </select>
+	  </div>
+	  
+	 <div class="form-group">
+      <label for="bloodgroup">Blood Group:</label>
+      <select class="form-control" id="bloodgroup">
+        <option></option>
+		<option>A+</option>
+        <option>O+</option>
+		<option>B+</option>
+        <option>AB+</option>
+		<option>A-</option>
+        <option>O-</option>
+		<option>B-</option>
+        <option>AB-</option>
+      </select>
+	  </div>
+	 
+	 <div class="form-group">
+      <label for="designation">Designation</label>
+      <select class="form-control" id="designation">
+		<option></option>
+        <option>Software Engineer</option>
+		<option>UI designer</option>
+        <option>Developer</option>
+		<option>Quality Analyst</option>
+        
+        
+      </select>
+	  </div>
+	  
+  </div>	 
+  
+  <div class="col-md-4">
+     <br><br><br><br>
+     
+    <div class="form-group">
+         <label for="mname">Middle Name:</label>
+         <input type="text" class="form-control" id="mname">
+     </div>
+	 
+	<div class="form-group">
+         <label for="dob">Date of Birth</label>
+         <input type="text" class="form-control" id="dob">
+     </div>
+	 
+	<div class="form-group">
+      <label for="maritalstatus">Marital Status:</label>
+      <select class="form-control" id="maritatstatus">
+        <option></option>
+		<option>Single</option>
+        <option>Married</option>
+      </select>
+	  </div>
+	 
+  </div>	 
+  
+  <div class="col-md-4">
+     <br><br><br><br>
+    <div class="form-group">
+         <label for="lname">Last Name:</label>
+         <input type="text" class="form-control" id="lname">
+     </div>
+	 
+	 <div class="form-group">
+         <label for="pan">PAN</label>
+         <input type="text" class="form-control" id="pan">
+     </div>
+	 
+	<div class="form-group">
+      <label for="doj">Date Of Joining</label>
+      <select class="form-control" id="doj">
+        <option></option>
+		<option>Single</option>
+        <option>Married</option>
+      </select>
+	  </div>
+	  
+  </div>	 
+ </div>
+  <hr>
+  
+  <div class="row">
+    <div class="col-md-4">
+	<div class="form-group">
+         <label for="hno">House No./Lane Street</label>
+         <input type="text" class="form-control" id="hno">
+     </div>
+	 
+	<div class="form-group">
+      <label for="state">State</label>
+      <select class="form-control" id="state">
+        <option></option>
+		<option>Karnataka</option>
+        <option>Maharashtra </option>
+		<option>Rajasthan</option>
+        <option>Madhya Pradesh</option>
+		<option>Rajasthan</option>
+      </select>
+	  </div>
+	  
+	 <div class="form-group">
+         <label for="mobile">Mobile</label>
+         <input type="text" class="form-control" id="mobile">
+     </div> 
+  
+  </div>
+  
+  <div class="col-md-4">
+     <div class="form-group">
+      <label for="city">City</label>
+      <select class="form-control" id="city">
+        <option></option>
+		<option>Karnataka</option>
+        <option>Maharashtra </option>
+		<option>Rajasthan</option>
+        <option>Madhya Pradesh</option>
+		<option>Rajasthan</option>
+      </select>
+	  </div>
+	  
+	  <div class="form-group">
+      <label for="country">Country</label>
+      <select class="form-control" id="country">
+        <option></option>
+		<option>Karnataka</option>
+        <option>Maharashtra </option>
+		<option>Rajasthan</option>
+        <option>Madhya Pradesh</option>
+		<option>Rajasthan</option>
+      </select>
+	  </div>
+     
+     <div class="form-group">
+         <label for="amb">Alternate Mobile No.</label>
+         <input type="text" class="form-control" id="amb">
+     </div> 	 
+	  
+  </div>
+  
+  <div class="col-md-4">
+    
+	<div class="form-group">
+      <label for="district">District</label>
+      <select class="form-control" id="district">
+        <option></option>
+		<option>Karanataka</option>
+        <option>Maharashtra </option>
+		<option>Rajasthan</option>
+        <option>Madhya Pradesh</option>
+		<option>Rajasthan</option>
+      </select>
+	  </div>
+     
+     <div class="form-group">
+         <label for="pin">Pin Code</label>
+         <input type="text" class="form-control" id="pin">
+     </div> 	 
+	 
+	 
+	 <div class="form-group">
+         <label for="email">Email</label>
+         <input type="text" class="form-control" id="email">
+     </div> 	
+	 
+  </div>
+  
+  
+  
+</div>
+<hr>
+
+   <div class="row">
+     <div class="col-md-4">
+	   <label class="radio-inline"><input type="radio" name="qualification">HSC Or Equivalant</label>
+       <label class="radio-inline"><input type="radio" name="qualification">12th Or Equivalant</label>
+	 </div>
+   
+    <div class="col-md-4"> </div>
+    <div class="col-md-4"> </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-md-4">
+	    <div class="form-group">
+	      <label for="inst">Institution</label>
+         <input type="text" class="form-control" id="inst">	  
+		</div>
+	</div>
+	<div class="col-md-4">
+	    <div class="form-group">
+	      <label for="grade">Grade</label>
+         <input type="text" class="form-control" id="grade">	  
+		</div>
+	</div>
+	<div class="col-md-4">
+	    <div class="form-group">
+	      <label for="yop">Year of Passing</label>
+         <input type="text" class="form-control" id="yop">	  
+		</div>
+	</div>
+  </div>
+  <br>
+  <div class="row">
+    <label class="checkbox-inline"><input type="checkbox" value="">Bachelors</label>
+    <label class="checkbox-inline"><input type="checkbox" value="">Post Graduate</label>
+    <label class="checkbox-inline"><input type="checkbox" value="">M.Phil</label>
+	<label class="checkbox-inline"><input type="checkbox" value="">Ph.d</label>
+    <label class="checkbox-inline"><input type="checkbox" value="">Others</label>
+  
+  </div>
+  <hr>
+  
+  <div class="row">
+  
+    <div class="col-md-4">
+	  <button type="button" class="btn btn-default" style="background-color:#05B0BA;color:#fff ">Login</button>
+	  <button type="button" class="btn btn-default" style="background-color:#000000; color:#fff" >Cancel</button>
+      
+	</div>
+    <div class="col-md-8">
+	</div>
+</div>
+
+</div>
+</body>  
+</html>

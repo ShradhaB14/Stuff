@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <!-- React -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.5.4/react.js"></script>
+     <!-- React-dom -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/15.5.4/react-dom.js"></script>
+     <!-- babel -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.25.0/babel.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/react-redux/6.0.1/react-redux.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/4.0.1/redux.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/babel">
+
+        const initialState={
+            fname:"",
+            lname:""
+        }
+
+    const reducer=(state=initialState,action)=>{
+        console.log(state)
+    }
+
+    const store=createStore(reducer)
+
+    const todoAction={type:"to-do",todo:"get milk"}
+    
+    store.dispatch(todoAction)
+    
+    
+    
+    
+    </script>
+</body>
+</html>

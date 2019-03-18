@@ -1,0 +1,15 @@
+background-image: linear-gradient(to right,$color-primary-light,$color-primary-dark)--
+sets the background to the specified gradient
+
+-webkit-background-clip:text---
+makes the gradient as background of text
+
+display:inline-block---
+displays the given style only to the specified section not on the entire background
+
+gutter-horizontal/vertical--
+spaces between two columns
+
+
+
+background-blend-mode--describes how the background basic elements should blend

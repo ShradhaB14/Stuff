@@ -1,0 +1,51 @@
+.myclass{
+	font-weight: bold;
+}
+.mrgin{
+	margin-bottom:10px;
+}
+.w3-black{
+	background-color:#000;
+}
+.active{
+	 background-color:#000;
+ }
+.fuser{ 
+	font-size: 2.0em !important;
+    display: block !important;
+}
+#nav-tag {
+	font-size: 15px;
+    font-weight: 500;
+
+}
+.nav-pills>li.active>a {
+    color: #fff !important;
+    background-color: #000 !important;
+	padding: 13px;
+}
+.nav-pills>li>a
+{
+	color:#fff;
+	border-radius:0px;
+	padding: 13px;
+}
+.nav-pills>li>a:hover
+{
+	background-color: #000;
+}
+
+
+.nav,nav-pills,nav-stacked{
+	height:100%;
+	position:fixed;
+	width:120px;
+	background-color:#222;
+}
+.nav-center{
+	text-align:center;
+}
+#sidebar-img{
+	    width: 117px;
+    height: 117px;
+}
